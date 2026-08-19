@@ -4,6 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O Labirinto da Verdade: Um Jogo Filosófico</title>
+    <script>
+        // Script para corrigir rotas no GitHub Pages
+        (function() {
+            var currentPath = window.location.pathname;
+            // Se o utilizador entrar no link principal, redireciona para o jogo
+            if (currentPath === '/filogame' || currentPath === '/filogame/') {
+                window.history.replaceState(null, '', '/filogame/game');
+            }
+        })();
+    </script>
     <link rel="stylesheet" href="./index-C6Sy3r_F.css">
 </head>
 <body>
